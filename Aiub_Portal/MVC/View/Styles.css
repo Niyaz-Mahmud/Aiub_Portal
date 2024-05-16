@@ -1,0 +1,1034 @@
+body
+	{
+		background-color:#fff;
+		font-family:Arial, sans-serif;
+		margin:0;
+		padding:0;
+
+	}
+
+	h2
+	{
+		color:#3498db;
+		margin-top:0;
+	}
+
+	input[type="text"],select,input[type="date"],input[type="number"],input[type="time"],input[type="password"],input[type="email"],input[type="tel"] {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+	p
+	{
+		color:green;
+		margin-top:10px;
+	}
+
+	td
+	{
+		text-align:center;
+	}
+
+	td[colspan=\\\\\\\\\\\\\\\"12\\\\\\\\\\\\\\\"],td[colspan=\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"12\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"]
+	{
+		background-color:#d9edf7;
+		font-weight:700;
+	}
+
+	textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    resize: vertical; 
+    box-sizing: border-box; 
+}
+
+th
+	{
+		background-color:#f2f2f2;
+		font-weight:700;
+		text-align:center;
+	}
+
+	th,td
+	{
+		border:1px solid #ddd;
+		padding:12px;
+		text-align:center;
+	}
+
+	tr.course-title {
+    background-color: #f0f0f0; 
+
+}
+
+tr:nth-child(even),tr:nth-child(even),.mark-upload tbody tr:nth-child(even)
+	{
+		background-color:#f9f9f9;
+	}
+
+.Student-info-table td:first-child,.Teacher-info-table td:first-child
+{
+	font-weight:700;
+	width:30%;
+}
+
+.Student-info-table th,.Student-info-table td,.Teacher-info-table th,.Teacher-info-table td,.hr-info-table td,.teacher-grade-table th, .register-info-table th, .register-info-table td
+{
+	border-bottom:1px solid #ddd;
+	padding:15px;
+	text-align:left;
+}
+
+.Student-info-table th,.Teacher-info-table th,.hr-info-table th,.teacher-grade-table th,.register-info-table th
+{
+	background-color:#3498db;
+	border-bottom:2px solid #ddd;
+	color:#fff;
+	font-weight:700;
+	text-align: center;
+}
+
+.Student-info-table tr:nth-child(even),.Teacher-info-table tr:nth-child(even),.table tbody tr:nth-child(even),#main-content tbody tr:nth-child(even)
+{
+	background-color:#f9f9f9;
+}
+
+.Student-info-table,.Teacher-info-table,.hr-info-table,.teacher-grade-table, .register-info-table 
+{
+	background-color:#fff;
+	border:1px solid #ddd;
+	border-radius:5px;
+	box-shadow:0 4px 6px rgba(0,0,0,0.1);
+	padding:15px;
+	width:100%;
+}
+
+.account-box h2,.library-box h2,.notice-box h2,.offered-courses-box h2,.payroll-box h2,.resource-box h2,.student-box h2, .teacher-box h2 ,.leave-box h2 ,.payment-box h2
+{
+	font-weight:700;
+	left:7%;
+	margin-bottom:15px;
+	position:absolute;
+	top:-38px;
+	transform:translateX(-50%);
+	color: white;
+}
+.account-box,.library-box,.notice-box,.offered-courses-box,.resource-box,.student-box, .teacher-box,.leave-box ,.payment-box,.student-financial-box,.student-enrolled-courses-box,.payroll-box
+{
+	border-radius:5px;
+	border-top:50px solid #3498db;
+	box-shadow:0 4px 8px rgba(0,0,0,0.1);
+	color:#FFF;
+	padding:20px;
+	position:relative;
+	width:100%;
+}
+
+.account-table th,.account-table td,.notice-table th,.notice-table td,.payroll-table th,.payroll-table td,.resource-table th,.resource-table td,.student-financial-table th,.student-financial-table td,.student-enrolled-courses-table th,.student-enrolled-courses-table td
+{
+	border:1px solid #ccc;
+	color:#000;
+	padding:8px;
+	text-align:center;
+	padding:16px;
+
+}
+
+.account-table th,.drop-course-table th,.logout-link:hover,.notice-table th,.resource-table th,.notice-table th,.payroll-table th,.resource-table th,.student-financial-table th,.teacher-table th,.student-enrolled-courses-table th
+{
+	background-color:#3498db;
+	color:#fff;
+	text-align:center;
+
+}
+
+.account-table,.leave-table,.library-table,.notice-table,.offered-courses-table,.payment-table,.payroll-table,.resource-table,.student-financial-table,.table,.student-enrolled-courses-table
+{
+	border-collapse:collapse;
+	width:100%;
+}
+
+.bg-info {
+    background-color: #17a2b8;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.class-schedule-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.class-schedule-heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.class-schedule-table .day-row {
+    background-color: #3498db; 
+}
+
+.class-schedule-table tbody tr:hover {
+    background-color: #6cb9ec;
+}
+
+.class-schedule-table td,.student-financial-table td,.student-enrolled-courses-table td{
+    border: 1px solid #ccc;
+    padding: 16px;
+}
+
+.class-schedule-table th {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.class-schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+.container {
+    margin: 20px auto;
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-option input[type=\\\"checkbox\\\"]
+{
+	margin-right:10px;
+
+}
+
+.course-option label {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px; 
+	font-size: 16px; 
+	color: #333; 
+}
+
+.course-option {
+	margin-bottom: 20px; 
+}
+
+.course-options {
+	margin-top: 20px; 
+}
+
+.course-title {
+    font-weight: bold; 
+	color:white;
+	text-align: left;
+
+}
+.payroll-inputs label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;} 
+.create-notice h2
+{
+	color:#3498db;
+	font-size:24px;
+	margin-bottom:15px;
+}
+
+.create-notice label,.payment-details label
+{
+	display:block;
+	margin-bottom:5px;
+}
+
+.create-notice textarea
+{
+	height:150px;
+	resize:vertical;
+}
+
+.dashboard-content {
+    border: 3px solid #3498db;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    margin-top: -3px;
+    padding: 20px;
+	min-height: 100vh;
+}
+
+.dashboard-content .menu-options
+{
+	margin-right:20px;
+	text-align:center;
+}
+
+.dashboard-content .menu-options a .menu-icon {
+    margin-right: 10px; 
+}
+
+.dashboard-content .menu-options a {
+    align-items: center;
+    background-color: #3498db;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color .3s ease;
+    width: 200px;
+    justify-content: left; 
+}
+.menu-options a.active {
+    background-color: #0168ac; 
+    color: #fff; 
+
+}
+.dashboard-header
+{
+	align-items:center;
+	background-color:#fff;
+	border:3px solid #3498db;
+	border-radius:5px;
+	color:#2c3e50;
+	display:flex;
+	justify-content:space-between;
+	padding:10px 20px;
+}
+
+.dashboard-header .bar
+{
+	background-color:#3498db;
+	height:80px;
+	margin-right:10px;
+	width:3px;
+}
+
+.dashboard-header .icon
+{
+	cursor:pointer;
+	margin-left:15px;
+}
+
+.dashboard-header .icons-container a.logout-link
+{
+	color:#3498db;
+	margin-left:15px;
+	text-decoration:none;
+}
+
+.dashboard-header .icons-container a.logout-link:hover
+{
+	color:#2c3e50;
+}
+
+.dashboard-header .icons-container,.dashboard-header .logo-container
+{
+	align-items:center;
+	display:flex;
+}
+
+.dashboard-header .logo-img
+{
+	margin-right:10px;
+	max-width:70px;
+}
+
+.dashboard-header .tagline
+{
+	color:#666;
+	font-size:30px;
+	font-style:arial;
+	margin-left:16px;
+}
+
+.dashboard-header .university-name
+{
+	color:#3498db;
+	font-size:40px;
+	font-weight:700;
+	margin-left:10px;
+}
+
+.dashboard-header .welcome-user
+{
+	color:#3498db;
+	cursor:pointer;
+	margin-right:10px;
+}
+
+.details-btn:hover,.upload-button:hover,.search-box button:hover,.pay-button:hover,.delete-button:hover,.open-button:hover,.apply-leave-btn:hover,.add-book-btn:hover,.checkout-btn:hover,.received-btn:hover,.submit-button:hover,.accept-btn:hover,.drop-button:hover
+{
+	background-color:#0056b3;
+}
+
+.drop-course-table td,.notice-table td,.resource-table td
+{
+	border:1px solid #ccc;
+	color:#000;
+	padding:8px;
+	text-align:center;
+}
+
+.drop-course-table,.notice-table,.offered-courses-table,.resource-table
+{
+	border-collapse:collapse;
+	width:100%;
+}
+
+.dropdown-container label
+{
+	font-weight:700;
+	margin-right:10px;
+}
+
+.dropdown-container select
+{
+	border:1px solid #ccc;
+	border-radius:5px;
+	font-size:16px;
+	outline:none;
+	padding:8px;
+}
+
+.dropdown-menu
+{
+	animation:fadeIn .3s ease-in-out;
+	background-color:#fff;
+	border:1px solid #ccc;
+	border-radius:5px;
+	box-shadow:0 2px 4px rgba(0,0,0,0.1);
+	display:none;
+	position:absolute;
+	right:0;
+	top:100%;
+	z-index:1;
+}
+
+.dropdown-menu a
+{
+	color:#000;
+	display:block;
+	padding:10px 20px;
+	text-decoration:none;
+}
+
+.dropdown-menu a#change-password
+{
+	color:#3498db;
+	font-weight:700;
+}
+
+.dropdown-menu a#change-password:hover
+{
+	background-color:#f0f0f0;
+	color:#2c3e50;
+}
+
+.dropdown-menu a:hover,.dropdown-menu a:hover,.pagination a:hover,.pagination a:hover,.table th,#main-content tbody tr:hover
+{
+	background-color:#f0f0f0;
+}
+
+.error-message
+{
+	align-items:center;
+	background-color:#f8d7da;
+	border:1px solid #f5c6cb;
+	border-radius:5px;
+	color:#721c24;
+	display:flex;
+	margin-bottom:20px;
+	padding:15px;
+}
+
+.error-message i,.success-message i
+{
+	font-size:20px;
+	margin-right:10px;
+}
+
+.error-message p
+{
+	font-size:16px;
+	margin:0;
+}
+
+.grade-report {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.home-img {
+    display: block !important;
+    height: auto !important;
+    margin: 40px auto !important;
+    width: 688px !important;
+}
+
+.label-height-30
+{
+	line-height:30px;
+}
+
+.leave-table .accept-btn[disabled]
+{
+	background-color:#ccc;
+	cursor:not-allowed;
+}
+
+.list-group-item.active {
+	background-color: #007bff;
+	border-color: #007bff;
+	color: white;
+	padding-top: 5%;
+	padding-left: 2%;
+  }
+
+.list-group-item.active h4,.list-group-item.active h6,.list-group-item.active h4,.list-group-item.active h6,.list-group-item.active label,.list-group-item.active small,.list-group-item.active label,.list-group-item.active small
+{
+	color:#fff;
+}
+.home-img img {
+	display: block;
+	height: auto;
+	margin: 40px auto;
+	width: 682px;
+  }
+.logout-link
+{
+	border:2px solid #3498db;
+	border-radius:5px;
+	color:#3498db;
+	padding:8px 16px;
+	text-decoration:none;
+	transition:background-color .3s ease;
+}
+
+.margin-l5
+{
+	margin-left:5px;
+}
+
+.margin-left-20
+{
+	margin-left:20px;
+}
+
+.mark-upload th,.mark-upload td
+{
+	border-bottom:1px solid #ddd;
+	padding:16px;
+	position:relative;
+	text-align:left;
+}
+
+.no-data-message
+{
+	background-color:#ffe6e6;
+	border:2px solid red;
+	border-radius:5px;
+	color:red;
+	display:none;
+	font-size:18px;
+	font-weight:700;
+	margin-top:20px;
+	padding:10px;
+	text-align:center;
+}
+
+.notice
+{
+	background-color:#fff;
+	border:3px solid #3498db;
+	border-radius:5px;
+	margin-top:20px;
+	padding:20px;
+}
+
+.notice h3
+{
+	color:#3498db;
+	font-size:20px;
+	margin-bottom:10px;
+}
+
+.notice p
+{
+	color:#555;
+	margin-bottom:10px;
+}
+
+.pagination
+{
+	margin-top:20px;
+	text-align:center;
+}
+
+.pagination .current-page
+{
+	background-color:#3498db;
+	border-color:#3498db;
+	color:#fff;
+	font-weight:700;
+}
+
+.pagination a,.pagination .current-page
+{
+	background-color:#fff;
+	border:1px solid #ccc;
+	border-radius:3px;
+	color:#333;
+	display:inline-block;
+	margin:0 2px;
+	padding:5px 10px;
+	text-decoration:none;
+	transition:background-color .3s;
+}
+
+.payment-details
+{
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding:20px;
+}
+
+.payment-details div,.payment-details h2
+{
+	margin-bottom:10px;
+}
+
+.registration-form h2 {
+    text-align: center;
+    color: #3498db;
+}
+
+.registration-form input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.registration-form input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+.registration-form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.registration-form {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #f5f5f5;
+}
+
+.resource-table td:nth-child(3)
+{
+	position:relative;
+}
+
+.resource-table td:nth-child(3) a
+{
+	color:#3498db;
+	display:inline-block;
+	padding-right:20px;
+	position:relative;
+	text-decoration:none;
+}
+
+
+.resource-table td:nth-child(3) a:hover
+{
+	color:#2c3e50;
+	text-decoration:underline;
+}
+
+.search-box
+{
+	margin-bottom:12px;
+}
+
+.search-box button,.details-btn,.delete-button,.open-button,.add-book-btn,.checkout-btn,.received-btn,.submit-button,.accept-btn,.drop-button,.pay-button,.upload-button
+{
+	background-color:#007bff;
+	border:none;
+	border-radius:5px;
+	color:#FFF;
+	cursor:pointer;
+	padding:10px 20px;
+	transition:background-color .3s;
+	text-decoration: none;
+	margin-bottom:15px;
+	margin-top: 15px;
+}
+.apply-leave-btn{
+	background-color:#007bff;
+	border:none;
+	border-radius:5px;
+	color:#FFF;
+	cursor:pointer;
+	padding:10px 20px;
+	transition:background-color .3s;
+	text-decoration: none;
+	margin-bottom:15px;
+
+}
+.semester-info th {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.semester-info th,
+.semester-info td {
+    padding: 10px;
+    text-align: center;
+}
+
+.semester-info tr:hover {
+    background-color: #ddd;
+}
+
+.semester-info tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.semester-info {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.semester-title {
+    background-color: #187fd3;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.setting-link
+{
+	color:#3498db;
+	margin-right:15px;
+	position:relative;
+	text-decoration:none;
+}
+
+.setting-link .icon
+{
+	font-size:18px;
+}
+
+.setting-link:hover
+{
+	color:#2980b9;
+}
+
+.settings-menu
+{
+	background-color:#fff;
+	border-radius:8px;
+	box-shadow:0 0 5px rgba(0,0,0,0.3);
+	color:#333;
+	display:none;
+	padding:3px;
+	position:absolute;
+	right:170px;
+	top:75px;
+	z-index:999;
+}
+
+.settings-menu a
+{
+	display:block;
+	padding:8px 16px;
+	text-decoration:none;
+	transition:background-color .3s ease;
+}
+
+.settings-menu a:hover
+{
+	background-color:#75b9e7;
+}
+
+.settings-menu ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.student-financial-box h2,.student-enrolled-courses-box h2{
+
+	font-weight:700;
+	left:10%;
+	margin-bottom:15px;
+	position:absolute;
+	top:-38px;
+	transform:translateX(-50%);
+	color: white;
+
+}
+.student-info {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.student-table .accept-btn:disabled
+{
+	background-color:#95a5a6;
+	cursor:not-allowed;
+}
+
+.student-table td,.teacher-table td,.offered-courses-table td,.library-table td,.leave-table td,.payment-table td
+{
+	border:1px solid #ccc;
+	color:#000;
+	padding:10px;
+	text-align:center;
+	word-wrap:break-word;
+	margin-bottom:10px;
+	margin-top:10px;
+
+}
+.student-table th,.offered-courses-table th,.library-table th,.leave-table th,.payment-table th
+{
+	border:1px solid #ccc;
+	color:white;
+	padding:10px;
+	text-align:center;
+	word-wrap:break-word;
+	background-color: #3498db;
+
+}
+
+.student-table,.teacher-table
+{
+	border-collapse:collapse;
+	table-layout:fixed;
+	width:100%;
+
+}
+
+.success-message
+{
+	align-items:center;
+	background-color:#d4edda;
+	border:1px solid #c3e6cb;
+	border-radius:5px;
+	color:#155724;
+	display:flex;
+	margin-bottom:20px;
+	margin-top:10px;
+	padding:15px;
+}
+
+.success-message p
+{
+	font-size:16px;
+	margin:0;
+}
+
+.text-right {
+	text-align: right;
+	padding-right: 10px;
+	padding-bottom: 1px;
+  }
+
+.time-range
+{
+	align-items:center;
+	display:flex;
+	justify-content:space-between;
+}
+
+.time-range label
+{
+	width:45%;
+}
+
+.upload-resource
+{
+	background-color:#f9f9f9;
+	border:1px solid #ccc;
+	border-radius:5px;
+	margin:0 auto;
+	max-width:400px;
+	padding:20px;
+}
+
+.upload-resource h2
+{
+	color:#333;
+	font-size:24px;
+	margin-top:0;
+}
+
+.upload-resource label
+{
+	color:#555;
+	display:block;
+	font-size:16px;
+	margin-bottom:10px;
+}
+
+#courseTable tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+#courseTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#courseTable td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#courseTable th {
+    background-color: #3498db;
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+    color: white;
+}
+
+#courseTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#courseTable td:first-child {
+    text-align: left;
+}
+
+#noMatchMessage
+{
+	background-color:#ffe6e6;
+	border:2px solid red;
+	border-radius:5px;
+	color:red;
+	display:none;
+	font-size:18px;
+	font-weight:700;
+	margin-top:10px;
+	padding:10px;
+	text-align:center;
+}
+
+#searchInput
+{
+	border:1px solid #ccc;
+	border-radius:5px;
+	margin-right:10px;
+	padding:10px;
+	width:250px;
+}
+
+.add-course-form,
+.add-user-form,
+.add-book-form,
+.apply-leave-form,.payment-section,.add-notice-form,.add-resource-form,.add-payroll-form{
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"],
+input[type="time"],
+input[type="text"],
+input[type="submit"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.time-range {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+.book-checkout-form,.change-account-form {
+	width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.book-checkout-form h2,.change-account-form h2 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+}
